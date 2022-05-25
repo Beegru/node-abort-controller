@@ -5,6 +5,7 @@
 
 export class AbortSignal {
   aborted: boolean;
+  reason: string | undefined;
 
   addEventListener: (
     type: "abort",
